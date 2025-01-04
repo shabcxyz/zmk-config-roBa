@@ -18,22 +18,12 @@
 
         tab {
             bindings = <&kp TAB>;
-            key-positions = <11 12>;
-        };
-
-        shift_tab {
-            bindings = <&kp LS(TAB)>;
-            key-positions = <12 13>;
-        };
-
-        muhennkann {
-            bindings = <&to_layer_0 INT_MUHENKAN>;
-            key-positions = <11 10>;
+            key-positions = <0 1>;
         };
 
         double_quotation {
             bindings = <&kp DOUBLE_QUOTES>;
-            key-positions = <20 21>;
+            key-positions = <5 6>;
         };
 
         eq {
@@ -68,7 +58,7 @@
         default_layer {
             bindings = <
 &kp Q             &kp W         &kp E         &kp R    &kp T                                         &kp Y        &kp U  &lt 5 I    &kp O    &kp P
-&kp A             &kp S         &kp D         &kp F    &kp G        &kp LG(PLUS)      &kp SEMICOLON  &kp H        &kp J  &kp K      &kp L    &lt 5 MINUS
+&kp A             &kp S         &kp D         &kp F    &kp G        &kp LG(PLUS)      &kp SEMICOLON  &kp H        &kp J  &mt K K    &kp L    &lt 5 MINUS
 &mt LEFT_SHIFT Z  &kp X         &kp C         &kp V    &kp B        &kp ESCAPE        &kp RET        &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
 &kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &kp DEL  &lt 2 SPACE  &mkp LCLK         &kp BACKSPACE  &lt 1 ENTER                             &kp RIGHT_SHIFT
             >;
@@ -114,10 +104,10 @@
 
         SCROLL {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
+&trans       &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
+&trans       &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans       &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&bootloader  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
             >;
         };
 
